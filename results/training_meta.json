@@ -1,0 +1,32 @@
+{
+  "approach_a": {
+    "best_params": {
+      "max_depth": 20,
+      "n_estimators": 300
+    },
+    "cv_folds": 5,
+    "cv_scoring": "f1_macro",
+    "cv_best_score": 0.9746529388245255,
+    "cv_search_time_sec": 213.945,
+    "train_time_sec": 9.209,
+    "n_train": 79999,
+    "n_test": 20000
+  },
+  "approach_b": {
+    "n_clusters": 3,
+    "n_init": 10,
+    "train_time_sec": 0.454,
+    "n_samples": 99999,
+    "silhouette_sample_size": 10000,
+    "cluster_to_class": {
+      "0": "GALAXY",
+      "1": "QSO",
+      "2": "GALAXY"
+    },
+    "pca_explained_variance_ratio": [
+      0.7491823898732523,
+      0.15663906854917609
+    ],
+    "pca_explained_variance_total": 0.9058214584224283
+  }
+}

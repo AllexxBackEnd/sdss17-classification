@@ -1,0 +1,21 @@
+{
+  "n_raw": 100000,
+  "n_missing_cells": 0,
+  "n_nonunique_obj_id": 19154,
+  "n_duplicate_spec_obj_id": 0,
+  "n_bad_photometry": 1,
+  "n_bad_redshift": 0,
+  "n_clean": 99999,
+  "class_counts": {
+    "GALAXY": 59445,
+    "QSO": 18961,
+    "STAR": 21593
+  },
+  "class_shares": {
+    "GALAXY": 0.594456,
+    "QSO": 0.189612,
+    "STAR": 0.215932
+  },
+  "n_train": 79999,
+  "n_test": 20000
+}

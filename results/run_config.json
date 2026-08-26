@@ -1,0 +1,41 @@
+{
+  "run_date": "2026-08-26",
+  "random_state": 42,
+  "test_size": 0.2,
+  "features": [
+    "u",
+    "g",
+    "r",
+    "i",
+    "z",
+    "redshift"
+  ],
+  "library_versions": {
+    "python": "3.12.13",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0"
+  },
+  "random_forest": {
+    "max_depth": 20,
+    "n_estimators": 300,
+    "cv_folds": 5,
+    "cv_scoring": "f1_macro",
+    "cv_best_score": 0.9746529388245255
+  },
+  "kmeans": {
+    "n_clusters": 3,
+    "n_init": 10,
+    "random_state": 42,
+    "silhouette_sample_size": 10000,
+    "cluster_to_class": {
+      "0": "GALAXY",
+      "1": "QSO",
+      "2": "GALAXY"
+    }
+  },
+  "pca_explained_variance_ratio": [
+    0.7491823898732523,
+    0.15663906854917609
+  ]
+}

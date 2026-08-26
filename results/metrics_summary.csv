@@ -1,0 +1,14 @@
+approach,metric,value
+A,accuracy,0.97955
+A,precision_macro,0.980228
+A,recall_macro,0.972211
+A,f1_macro,0.976075
+A,train_time_sec,9.209
+B,ari,0.258043
+B,nmi,0.309353
+B,purity,0.733957
+B,silhouette,0.442597
+B,train_time_sec,0.454
+common,train_size,79999.0
+common,test_size,20000.0
+common,n_samples_total,99999.0

@@ -1,0 +1,27 @@
+[project]
+name = "sdss17-classification"
+version = "0.1.0"
+description = "Supervised (Random Forest) vs unsupervised (K-Means) classification of SDSS17 stellar objects"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "joblib>=1.4",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.2",
+    "ruff>=0.6",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ANN"]
+ignore = []

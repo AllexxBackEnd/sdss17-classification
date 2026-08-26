@@ -1,0 +1,13 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.ruff_cache/
+
+# исходный датасет: скачивается с Kaggle или запрашивается у SkyServer
+# скриптом scripts/00_fetch_data.py
+data/raw_sdss17.csv
+
+# обученные модели: 96 МБ, воспроизводятся за секунды через ./run_all.sh
+models/

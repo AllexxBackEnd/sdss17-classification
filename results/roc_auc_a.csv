@@ -1,0 +1,4 @@
+class,roc_auc_ovr,average_precision,positives
+GALAXY,0.994881,0.995391,11889
+QSO,0.992855,0.98202,3792
+STAR,0.99981,0.99881,4319
